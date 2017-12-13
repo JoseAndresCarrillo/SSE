@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">SSE-FISI</string>
+
+    <!--Login Activity-->
+    <string name="subtitle">Sistema de Seguimiento de Egresados</string>
+    <string name="username">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="login_button">Entrar</string>
+    <string name="forgot_password">Olvidé mi contraseña</string>
 </resources>
