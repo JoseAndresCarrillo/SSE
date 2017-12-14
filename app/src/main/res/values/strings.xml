@@ -7,4 +7,27 @@
     <string name="password">Contraseña</string>
     <string name="login_button">Entrar</string>
     <string name="forgot_password">Olvidé mi contraseña</string>
+
+    <!--Home Activity-->
+    <string name="user">RAMIREZ ESPINOZA, JUAN GABRIEL</string>
+    <string name="personalData">Datos Personales:</string>
+    <string name="idTitle">Doc. de Identidad:</string>
+    <string name="birthdayTitle">Fecha de Nac. :</string>
+    <string name="maritalStatusTitle">Estado Civil:</string>
+    <string name="address">Dirección:</string>
+    <string name="seemore">Ver más</string>
+
+    <string name="undergraduateData">Formación Académica</string>
+    <string name="univName">Universidad Nacional Mayor de San Marcos</string>
+    <string name="major">Ingeniería de Software</string>
+    <string name="majorDate">2014-2019</string>
+
+    <string name="postgraduateData">Estudio de Postgrado y/o Especialización</string>
+    <string name="speciality">Maestría en Ingeniería de Software</string>
+    <string name="specialityDate">2020-2021</string>
+
+    <string name="laboralData">Experiencia Laboral</string>
+    <string name="enterpriseName">Graña y Montero</string>
+    <string name="workName">Analista de Sistemas</string>
+    <string name="hireDate">2019-2021</string>
 </resources>
