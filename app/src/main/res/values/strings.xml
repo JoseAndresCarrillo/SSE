@@ -1,5 +1,14 @@
 <resources>
     <string name="app_name">SSE-FISI</string>
+    
+    <!--Others-->
+    <string name="Home">Inicio</string>
+    <string name="valorateFormation">Valorar Formación Académica</string>
+    <string name="valorateService">Valorar Servicios Académicos</string>
+    <string name="about">Acerca del SSE</string>
+    <string name="logout">Cerrar Sesión</string>
+    <string name="Open">open</string>
+    <string name="Close">close</string>
 
     <!--Login Activity-->
     <string name="subtitle">Sistema de Seguimiento de Egresados</string>
