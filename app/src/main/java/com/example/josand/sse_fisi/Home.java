@@ -83,8 +83,8 @@ public class Home extends AppCompatActivity {
                 .withSelectable(true)
                 .withIcon(R.drawable.ic_star_border_black_24dp);
         PrimaryDrawerItem about = new PrimaryDrawerItem()
-                .withIdentifier(R.string.Home)
-                .withName(R.string.Home)
+                .withIdentifier(R.string.about)
+                .withName(R.string.about)
                 .withSelectable(true)
                 .withIcon(R.drawable.ic_info_black_24dp);
         PrimaryDrawerItem logout = new PrimaryDrawerItem()
