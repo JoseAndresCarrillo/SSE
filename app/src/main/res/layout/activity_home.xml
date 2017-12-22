@@ -61,12 +61,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
                     <TextView
-                        android:textColor="#1976D2"
-                        android:textSize="20sp"
-                        android:layout_gravity="center"
                         android:text="@string/personalData"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        style="@style/TitleTextStyle" />
 
                 </LinearLayout>
 
@@ -77,16 +73,11 @@
 
                     <TextView
                         android:text="@string/idTitle"
-                        android:layout_weight="2"
-                        android:paddingLeft="25dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        style="@style/SubTitleTextStyle"/>
                     <TextView
+                        android:id="@+id/homeID"
                         android:text="78965115"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        style="@style/DataTextStyle" />
 
                 </LinearLayout>
 
@@ -97,16 +88,11 @@
 
                     <TextView
                         android:text="@string/birthdayTitle"
-                        android:layout_weight="2"
-                        android:paddingLeft="25dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        style="@style/SubTitleTextStyle" />
                     <TextView
+                        android:id="@+id/homeBirthday"
                         android:text="15/10/1996"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        style="@style/DataTextStyle" />
 
                 </LinearLayout>
 
@@ -117,16 +103,11 @@
 
                     <TextView
                         android:text="@string/maritalStatusTitle"
-                        android:layout_weight="2"
-                        android:paddingLeft="25dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        style="@style/SubTitleTextStyle" />
                     <TextView
+                        android:id="@+id/homeMaritalStatus"
                         android:text="Casado"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        style="@style/DataTextStyle" />
 
                 </LinearLayout>
 
@@ -136,36 +117,21 @@
                     android:layout_height="wrap_content">
 
                     <TextView
-                        android:text="@string/address"
-                        android:layout_weight="2"
-                        android:paddingLeft="25dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:text="@string/addressTitle"
+                        style="@style/SubTitleTextStyle" />
                     <TextView
+                        android:id="@+id/homeAddress"
                         android:text="Jr Las Begonias 269"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        style="@style/DataTextStyle" />
 
                 </LinearLayout>
 
                 <TextView
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:background="#424242"
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp" />
+                    style="@style/Separator"/>
 
                 <TextView
                     android:text="@string/seemore"
-                    android:textColor="#1976D2"
-                    android:textStyle="bold"
-                    android:textAllCaps="true"
-                    android:layout_marginBottom="10dp"
-                    android:layout_gravity="center"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    style="@style/SeeMoreStyle" />
 
             </LinearLayout>
 
@@ -196,12 +162,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
                     <TextView
-                        android:textColor="#1976D2"
-                        android:textSize="20sp"
-                        android:layout_gravity="center"
                         android:text="@string/undergraduateData"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        style="@style/TitleTextStyle"/>
 
                 </LinearLayout>
 
@@ -212,7 +174,9 @@
                     android:layout_height="wrap_content">
 
                     <TextView
+                        android:id="@+id/homeUndergraduateUnivName"
                         android:text="@string/univName"
+                        android:textColor="@color/colorGrey"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -225,7 +189,9 @@
                     android:layout_height="wrap_content">
 
                     <TextView
+                        android:id="@+id/homeMajor"
                         android:text="@string/major"
+                        android:textColor="@color/colorGrey"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -239,7 +205,9 @@
                     android:layout_height="wrap_content">
 
                     <TextView
+                        android:id="@+id/homeUndergraduateDate"
                         android:text="@string/majorDate"
+                        android:textColor="@color/colorGrey"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -247,21 +215,11 @@
                 </LinearLayout>
 
                 <TextView
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:background="#424242"
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp" />
+                    style="@style/Separator" />
 
                 <TextView
                     android:text="@string/seemore"
-                    android:textColor="#1976D2"
-                    android:textStyle="bold"
-                    android:textAllCaps="true"
-                    android:layout_marginBottom="10dp"
-                    android:layout_gravity="center"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    style="@style/SeeMoreStyle" />
 
             </LinearLayout>
 
@@ -292,12 +250,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
                     <TextView
-                        android:textColor="#1976D2"
-                        android:textSize="20sp"
-                        android:layout_gravity="center"
                         android:text="@string/postgraduateData"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        style="@style/TitleTextStyle"/>
 
                 </LinearLayout>
 
@@ -308,7 +262,9 @@
                     android:layout_height="wrap_content">
 
                     <TextView
+                        android:id="@+id/homePostgraduateUnivName"
                         android:text="@string/univName"
+                        android:textColor="@color/colorGrey"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -321,7 +277,9 @@
                     android:layout_height="wrap_content">
 
                     <TextView
-                        android:text="@string/speciality"
+                        android:id="@+id/homePostgraduateCourse"
+                        android:text="@string/course"
+                        android:textColor="@color/colorGrey"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -335,7 +293,9 @@
                     android:layout_height="wrap_content">
 
                     <TextView
-                        android:text="@string/specialityDate"
+                        android:id="@+id/homePostgraduateDate"
+                        android:text="@string/courseDate"
+                        android:textColor="@color/colorGrey"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -343,21 +303,11 @@
                 </LinearLayout>
 
                 <TextView
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:background="#424242"
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp" />
+                    style="@style/Separator" />
 
                 <TextView
                     android:text="@string/seemore"
-                    android:textColor="#1976D2"
-                    android:textStyle="bold"
-                    android:textAllCaps="true"
-                    android:layout_marginBottom="10dp"
-                    android:layout_gravity="center"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    style="@style/SeeMoreStyle"/>
 
             </LinearLayout>
 
@@ -386,12 +336,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
                     <TextView
-                        android:textColor="#1976D2"
-                        android:textSize="20sp"
-                        android:layout_gravity="center"
                         android:text="@string/laboralData"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        style="@style/TitleTextStyle"/>
 
                 </LinearLayout>
 
@@ -402,7 +348,9 @@
                     android:layout_height="wrap_content">
 
                     <TextView
+                        android:id="@+id/homeLaboralEnterpriseName"
                         android:text="@string/enterpriseName"
+                        android:textColor="@color/colorGrey"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -415,7 +363,9 @@
                     android:layout_height="wrap_content">
 
                     <TextView
+                        android:id="@+id/homeLaboralJob"
                         android:text="@string/workName"
+                        android:textColor="@color/colorGrey"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -429,7 +379,9 @@
                     android:layout_height="wrap_content">
 
                     <TextView
+                        android:id="@+id/homeLaboralDate"
                         android:text="@string/hireDate"
+                        android:textColor="@color/colorGrey"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -437,21 +389,11 @@
                 </LinearLayout>
 
                 <TextView
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:background="#424242"
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp" />
+                    style="@style/Separator" />
 
                 <TextView
                     android:text="@string/seemore"
-                    android:textColor="#1976D2"
-                    android:textStyle="bold"
-                    android:textAllCaps="true"
-                    android:layout_marginBottom="10dp"
-                    android:layout_gravity="center"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    style="@style/SeeMoreStyle"/>
 
             </LinearLayout>
 

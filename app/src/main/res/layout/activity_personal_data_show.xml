@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.josand.sse_fisi.PersonalDataShow">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleImageView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/juan" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/editPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/circleImageView"
+                android:layout_alignStart="@+id/circleImageView"
+                android:layout_marginStart="76dp"
+                android:clickable="true"
+                android:src="@drawable/ic_create_black_24dp"
+                app:fabSize="mini" />
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:padding="15dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="@string/name"
+                    android:textStyle="bold"
+                    android:layout_margin="2dp"
+                    android:textColor="@color/colorGrey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/pdName"
+                    android:text="@string/user"
+                    android:layout_margin="2dp"
+                    android:textColor="@color/colorGrey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="@string/id"
+                    android:textStyle="bold"
+                    android:layout_margin="2dp"
+                    android:textColor="@color/colorGrey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/pdID"
+                    android:text="74021405"
+                    android:layout_margin="2dp"
+                    android:textColor="@color/colorGrey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="@string/birthday"
+                    android:textStyle="bold"
+                    android:layout_margin="2dp"
+                    android:textColor="@color/colorGrey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/pdBirthday"
+                    android:text="07/07/1996"
+                    android:layout_margin="2dp"
+                    android:textColor="@color/colorGrey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="@string/birthplace"
+                    android:layout_margin="2dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorGrey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/pdBirthplace"
+                    android:text="Lima/Lima/La Victoria"
+                    android:layout_margin="2dp"
+                    android:textColor="@color/colorGrey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:padding="15dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="@string/maritalStatus"
+                    android:textStyle="bold"
+                    android:layout_margin="2dp"
+                    android:textColor="@color/colorGrey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                
+                <TextView
+                    android:id="@+id/pdMaritalStatus"
+                    android:text="CASADO"
+                    android:layout_margin="2dp"
+                    android:textColor="@color/colorGrey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/numberChildrens"
+                    android:textStyle="bold"
+                    android:layout_margin="2dp"
+                    android:textColor="@color/colorGrey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/pdNumberChildrens"
+                    android:text="3"
+                    android:layout_margin="2dp"
+                    android:textColor="@color/colorGrey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="@string/address"
+                    android:layout_margin="2dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorGrey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/pdAddress"
+                    android:text="Jr Las Begonias 269"
+                    android:layout_margin="2dp"
+                    android:textColor="@color/colorGrey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="@string/geoLocation"
+                    android:textStyle="bold"
+                    android:layout_margin="2dp"
+                    android:textColor="@color/colorGrey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/pdGeoLocation"
+                    android:text="Lima/Lima/San Isidro"
+                    android:layout_margin="2dp"
+                    android:textColor="@color/colorGrey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="@string/phone"
+                    android:textStyle="bold"
+                    android:layout_margin="2dp"
+                    android:textColor="@color/colorGrey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/pdPhone"
+                    android:text="3815285"
+                    android:layout_margin="2dp"
+                    android:textColor="@color/colorGrey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="@string/cellphone"
+                    android:textStyle="bold"
+                    android:layout_margin="2dp"
+                    android:textColor="@color/colorGrey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/pdCellphone"
+                    android:text="985289816"
+                    android:layout_margin="2dp"
+                    android:textColor="@color/colorGrey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="@string/personalEmail"
+                    android:textStyle="bold"
+                    android:layout_margin="2dp"
+                    android:textColor="@color/colorGrey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/pdPersonalEmail"
+                    android:text="josand_96@hotmail.com"
+                    android:layout_margin="2dp"
+                    android:textColor="@color/colorGrey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="@string/laboralEmail"
+                    android:textStyle="bold"
+                    android:layout_margin="2dp"
+                    android:textColor="@color/colorGrey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/pdLaboralEmail"
+                    android:text="juan.ramirez@unmsm.edu.pe"
+                    android:layout_margin="2dp"
+                    android:textColor="@color/colorGrey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

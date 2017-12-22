@@ -2,6 +2,7 @@ package com.example.josand.sse_fisi;
 
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
@@ -115,7 +116,10 @@ public class Home extends AppCompatActivity {
                     public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
                         switch (position){
                             case 1: break;
-                            case 2: break;
+                            case 2:
+                                Intent intent = new Intent(mContext,PersonalDataShow.class);
+                                startActivity(intent);
+                                break;
                             case 3: break;
                             case 4: break;
                             case 5: break;

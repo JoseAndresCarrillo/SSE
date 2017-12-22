@@ -23,7 +23,7 @@
     <string name="idTitle">Doc. de Identidad:</string>
     <string name="birthdayTitle">Fecha de Nac. :</string>
     <string name="maritalStatusTitle">Estado Civil:</string>
-    <string name="address">Dirección:</string>
+    <string name="addressTitle">Dirección:</string>
     <string name="seemore">Ver más</string>
 
     <string name="undergraduateData">Formación Académica</string>
@@ -32,14 +32,26 @@
     <string name="majorDate">2014-2019</string>
 
     <string name="postgraduateData">Estudio de Postgrado y/o Especialización</string>
-    <string name="speciality">Maestría en Ingeniería de Software</string>
-    <string name="specialityDate">2020-2021</string>
+    <string name="course">Maestría en Ingeniería de Software</string>
+    <string name="courseDate">2020-2021</string>
 
     <string name="laboralData">Experiencia Laboral</string>
     <string name="enterpriseName">Graña y Montero</string>
     <string name="workName">Analista de Sistemas</string>
     <string name="hireDate">2019-2021</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--Personal Data Show-->
+    <string name="name">Nombre</string>
+    <string name="id">Doc. de Identidad</string>
+    <string name="birthday">Fecha de Nac.</string>
+    <string name="birthplace">Lugar de Nac.</string>
+    <string name="maritalStatus">Estado Civil</string>
+    <string name="numberChildrens">Número de Hijos</string>
+    <string name="address">Dirección</string>
+    <string name="geoLocation">Lugar de Residencia</string>
+    <string name="phone">Teléfono Fijo</string>
+    <string name="cellphone">Teléfono Móvil</string>
+    <string name="personalEmail">Correo electrónico personal</string>
+    <string name="laboralEmail">Correo electrónico laboral</string>
+
 </resources>
