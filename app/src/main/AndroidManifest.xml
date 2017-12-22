@@ -24,8 +24,21 @@
             android:name=".Home"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".PersonalDataShow"
+        <activity
+            android:name=".PersonalDataShow"
+            android:label="@string/personalData"
             android:parentActivityName=".Home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Home" />
+        </activity>
+        <activity
+            android:name=".UndergraduateShow"
+            android:label="@string/undergraduateData"
+            android:parentActivityName=".Home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Home" />
         </activity>
     </application>
 

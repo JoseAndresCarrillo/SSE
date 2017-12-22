@@ -117,10 +117,13 @@ public class Home extends AppCompatActivity {
                         switch (position){
                             case 1: break;
                             case 2:
-                                Intent intent = new Intent(mContext,PersonalDataShow.class);
-                                startActivity(intent);
+                                Intent intentPD = new Intent(mContext,PersonalDataShow.class);
+                                startActivity(intentPD);
                                 break;
-                            case 3: break;
+                            case 3:
+                                Intent intentU = new Intent(mContext,UndergraduateShow.class);
+                                startActivity(intentU);
+                                break;
                             case 4: break;
                             case 5: break;
                             case 6: break;
