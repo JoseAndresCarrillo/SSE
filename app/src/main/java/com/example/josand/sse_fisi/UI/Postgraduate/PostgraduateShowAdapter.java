@@ -26,7 +26,7 @@ public class PostgraduateShowAdapter extends RecyclerView.Adapter<PostgraduateSh
     @Override
     public PostgraduateShowAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.content_postgraduate_show,parent,false);
+                .inflate(R.layout.content_item,parent,false);
         return new ViewHolder(v);
     }
 
@@ -48,9 +48,9 @@ public class PostgraduateShowAdapter extends RecyclerView.Adapter<PostgraduateSh
 
         public ViewHolder(View itemView) {
             super(itemView);
-            univName=itemView.findViewById(R.id.pgdtshowUnivName);
-            courseName=itemView.findViewById(R.id.pgdtshowCourse);
-            courseDate=itemView.findViewById(R.id.pgdtshowDate);
+            univName=itemView.findViewById(R.id.itemPlace);
+            courseName=itemView.findViewById(R.id.itemTitle);
+            courseDate=itemView.findViewById(R.id.itemDate);
         }
     }
 }

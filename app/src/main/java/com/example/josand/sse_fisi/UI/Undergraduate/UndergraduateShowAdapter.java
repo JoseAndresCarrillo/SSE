@@ -26,7 +26,7 @@ public class UndergraduateShowAdapter extends RecyclerView.Adapter<Undergraduate
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.content_undergraduate_show,parent,false);
+                .inflate(R.layout.content_item,parent,false);
         return new ViewHolder(v);
     }
 
@@ -50,9 +50,9 @@ public class UndergraduateShowAdapter extends RecyclerView.Adapter<Undergraduate
 
         public ViewHolder(View itemView) {
             super(itemView);
-            univName=itemView.findViewById(R.id.ugdtshowUnivName);
-            majorName=itemView.findViewById(R.id.ugdtshowMajor);
-            date=itemView.findViewById(R.id.ugdtshowDate);
+            univName=itemView.findViewById(R.id.itemPlace);
+            majorName=itemView.findViewById(R.id.itemTitle);
+            date=itemView.findViewById(R.id.itemDate);
         }
     }
 }
