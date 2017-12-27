@@ -1,7 +1,9 @@
-package com.example.josand.sse_fisi;
+package com.example.josand.sse_fisi.UI.PersonalData;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.josand.sse_fisi.R;
 
 public class PersonalDataShow extends AppCompatActivity {
 

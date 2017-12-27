@@ -1,4 +1,4 @@
-package com.example.josand.sse_fisi;
+package com.example.josand.sse_fisi.UI.Undergraduate;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.example.josand.sse_fisi.Model.UndergraduateShowModel;
+import com.example.josand.sse_fisi.R;
 
 import java.util.List;
 

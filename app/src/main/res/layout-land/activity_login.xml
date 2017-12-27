@@ -6,7 +6,7 @@
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.josand.sse_fisi.Login">
+    tools:context="com.example.josand.sse_fisi.UI.Login.Login">
 
     <android.support.v7.widget.LinearLayoutCompat
         android:layout_width="match_parent"

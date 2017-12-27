@@ -3,14 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:scrollbars="vertical"
     android:layout_margin="5dp"
-    tools:context="com.example.josand.sse_fisi.UI.Undergraduate.UndergraduateShow">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.josand.sse_fisi.UI.Postgraduate.PostgraduateShow">
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/recyclerUndergraduate"
+        android:id="@+id/recyclerPostgraduate"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scrollbars="vertical"
@@ -19,7 +19,7 @@
     </android.support.v7.widget.RecyclerView>
 
     <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fabUgdt"
+        android:id="@+id/fabPgdt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

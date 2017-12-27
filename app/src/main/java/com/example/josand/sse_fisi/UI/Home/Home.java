@@ -1,16 +1,17 @@
-package com.example.josand.sse_fisi;
+package com.example.josand.sse_fisi.UI.Home;
 
 
 import android.content.Context;
 import android.content.Intent;
-import android.os.Build;
-import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 
+import com.example.josand.sse_fisi.R;
+import com.example.josand.sse_fisi.UI.PersonalData.PersonalDataShow;
+import com.example.josand.sse_fisi.UI.Undergraduate.UndergraduateShow;
 import com.mikepenz.materialdrawer.AccountHeader;
 import com.mikepenz.materialdrawer.AccountHeaderBuilder;
 import com.mikepenz.materialdrawer.Drawer;

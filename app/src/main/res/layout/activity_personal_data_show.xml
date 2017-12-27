@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.example.josand.sse_fisi.PersonalDataShow">
+    tools:context="com.example.josand.sse_fisi.UI.PersonalData.PersonalDataShow">
 
     <LinearLayout
         android:orientation="vertical"
