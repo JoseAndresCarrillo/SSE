@@ -54,4 +54,6 @@
     <string name="personalEmail">Correo electrónico personal</string>
     <string name="laboralEmail">Correo electrónico laboral</string>
 
+    <string name="save">Guardar</string>
+
 </resources>

@@ -40,19 +40,29 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".UI.Home.Home" />
         </activity>
-        <activity android:name=".UI.Postgraduate.PostgraduateShow"
+        <activity
+            android:name=".UI.Postgraduate.PostgraduateShow"
             android:label="@string/postgraduateData"
             android:parentActivityName=".UI.Home.Home">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".UI.Home.Home" />
         </activity>
-        <activity android:name=".UI.LaboralData.LaboralDataShow"
+        <activity
+            android:name=".UI.LaboralData.LaboralDataShow"
             android:label="@string/laboralData"
             android:parentActivityName=".UI.Home.Home">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".UI.Home.Home" />
+        </activity>
+        <activity
+            android:name=".UI.PersonalData.PersonalDataEdit"
+            android:label="@string/personalData"
+            android:parentActivityName=".UI.PersonalData.PersonalDataShow">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UI.PersonalData.PersonalDataShow" />
         </activity>
     </application>
 

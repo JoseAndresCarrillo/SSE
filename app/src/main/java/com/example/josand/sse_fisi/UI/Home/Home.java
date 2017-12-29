@@ -10,7 +10,9 @@ import android.view.View;
 
 
 import com.example.josand.sse_fisi.R;
+import com.example.josand.sse_fisi.UI.LaboralData.LaboralDataShow;
 import com.example.josand.sse_fisi.UI.PersonalData.PersonalDataShow;
+import com.example.josand.sse_fisi.UI.Postgraduate.PostgraduateShow;
 import com.example.josand.sse_fisi.UI.Undergraduate.UndergraduateShow;
 import com.mikepenz.materialdrawer.AccountHeader;
 import com.mikepenz.materialdrawer.AccountHeaderBuilder;
@@ -26,7 +28,7 @@ public class Home extends AppCompatActivity {
 
     private Toolbar toolbar;
     private Context mContext;
-    private Drawer result;
+
 
 
     @Override
@@ -98,8 +100,8 @@ public class Home extends AppCompatActivity {
         AccountHeader accountHeader = new AccountHeaderBuilder().withActivity(this)
                 .withHeaderBackground(R.drawable.accoutheader)
                 .addProfiles(
-                        new ProfileDrawerItem().withName(getString(R.string.user).toString())
-                                .withEmail(getString(R.string.major).toString())
+                        new ProfileDrawerItem().withName(getString(R.string.user))
+                                .withEmail(getString(R.string.major))
                                 .withIcon(R.drawable.juan)
                 ).withOnAccountHeaderListener(new AccountHeader.OnAccountHeaderListener() {
                     @Override
@@ -108,7 +110,7 @@ public class Home extends AppCompatActivity {
                     }
                 }).build();
 
-        result = new DrawerBuilder().withActivity(this).withToolbar(toolbar)
+        Drawer result = new DrawerBuilder().withActivity(this).withToolbar(toolbar)
                 .addDrawerItems(home,personalData,undergraduateData,postgraduateData,
                         laboralData,valFormation,valService,about,logout)
                 .withAccountHeader(accountHeader)
@@ -125,12 +127,19 @@ public class Home extends AppCompatActivity {
                                 Intent intentU = new Intent(mContext,UndergraduateShow.class);
                                 startActivity(intentU);
                                 break;
-                            case 4: break;
-                            case 5: break;
+                            case 4:
+                                Intent intentP = new Intent(mContext,PostgraduateShow.class);
+                                startActivity(intentP);
+                                break;
+                            case 5:
+                                Intent intentL = new Intent(mContext,LaboralDataShow.class);
+                                startActivity(intentL);
+                                break;
                             case 6: break;
                             case 7: break;
                             case 8: break;
                             case 9: break;
+                            default:break;
                         }
                         return false;
                     }
