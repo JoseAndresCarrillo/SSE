@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.josand.sse_fisi.UI.Undergraduate.UndergraduteEdit">
+
+    <ScrollView
+        android:layout_margin="10dp"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/ugdtFooter">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/ugdtEditUnivName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ugdtUnivName" />
+
+            <EditText
+                android:id="@+id/ugdtEditSchool"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ugdtSchool" />
+
+            <EditText
+                android:id="@+id/ugdtEditCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ugdtCode" />
+
+            <EditText
+                android:id="@+id/ugdtEditStartDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ugdtStartYear" />
+
+            <EditText
+                android:id="@+id/ugdtEditEndDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ugdtEndDate" />
+
+            <EditText
+                android:id="@+id/ugdtEditGradeDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ugdtGradeDate" />
+
+            <EditText
+                android:id="@+id/ugdtEditTitleDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ugdtTitleDate" />
+
+            <EditText
+                android:id="@+id/ugdtEditMerit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ugdtMerit" />
+
+            <EditText
+                android:id="@+id/ugdtEditMode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ugdtMode" />
+
+            <EditText
+                android:id="@+id/ugdtEditTuition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ugdtTuition" />
+
+            <EditText
+                android:id="@+id/ugdtEditTuitionNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ugdtTuitionNumber" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ugdtFooter"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Button
+            android:id="@+id/ugdtEditSave"
+            android:text="@string/save"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/accent"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/ugdtEditDelete"
+            android:text="@string/delete"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/accent"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

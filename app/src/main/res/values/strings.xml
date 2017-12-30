@@ -9,6 +9,8 @@
     <string name="logout">Cerrar Sesión</string>
     <string name="Open">open</string>
     <string name="Close">close</string>
+    <string name="save">Guardar</string>
+    <string name="delete">Eliminar</string>
 
     <!--Login Activity-->
     <string name="subtitle">Sistema de Seguimiento de Egresados</string>
@@ -40,7 +42,7 @@
     <string name="workName">Analista de Sistemas</string>
     <string name="hireDate">2019-2021</string>
 
-    <!--Personal Data Show-->
+    <!--Personal Data -->
     <string name="name">Nombre</string>
     <string name="id">Doc. de Identidad</string>
     <string name="birthday">Fecha de Nac.</string>
@@ -54,6 +56,17 @@
     <string name="personalEmail">Correo electrónico personal</string>
     <string name="laboralEmail">Correo electrónico laboral</string>
 
-    <string name="save">Guardar</string>
+    <!--Undergraduate-->
+    <string name="ugdtUnivName">Institución</string>
+    <string name="ugdtSchool">Escuela Profesional</string>
+    <string name="ugdtCode">Código de alumno</string>
+    <string name="ugdtStartYear">Año de Ingreso</string>
+    <string name="ugdtEndDate">Año de Egreso</string>
+    <string name="ugdtGradeDate">Fecha de expedición de grado</string>
+    <string name="ugdtTitleDate">Fecha de expedición de titulo</string>
+    <string name="ugdtMerit">Mérito</string>
+    <string name="ugdtMode">Modalidad</string>
+    <string name="ugdtTuition">Colegio Profesional</string>
+    <string name="ugdtTuitionNumber">Numero de Colegiatura</string>
 
 </resources>

@@ -64,6 +64,13 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".UI.PersonalData.PersonalDataShow" />
         </activity>
+        <activity android:name=".UI.Undergraduate.UndergraduteEdit"
+            android:label="@string/undergraduateData"
+            android:parentActivityName=".UI.Undergraduate.UndergraduateShow">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UI.Undergraduate.UndergraduateShow" />
+        </activity>
     </application>
 
 </manifest>
