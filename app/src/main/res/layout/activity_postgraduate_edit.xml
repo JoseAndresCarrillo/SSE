@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.josand.sse_fisi.UI.Postgraduate.PostgraduateEdit">
+
+    <ScrollView
+        android:layout_margin="10dp"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/pgdtFooter">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/pgdtEditUnivName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ugdtUnivName" />
+
+            <EditText
+                android:id="@+id/pgdtInstType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/pgdtInstType" />
+
+            <EditText
+                android:id="@+id/pgdtEditAcadProg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/pgdtAcadProg" />
+
+            <EditText
+                android:id="@+id/pgdtProgType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/pgdtProgType" />
+
+            <EditText
+                android:id="@+id/ugdtEditStartDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ugdtStartYear" />
+
+            <EditText
+                android:id="@+id/ugdtEditEndDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ugdtEndDate" />
+
+            <EditText
+                android:id="@+id/ugdtEditCertDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/pgdtCertDate" />
+
+            <EditText
+                android:id="@+id/ugdtLectiveHours"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/pgdtLectivesHour" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/pgdtFooter"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Button
+            android:id="@+id/pgdtEditSave"
+            android:text="@string/save"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/accent"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/pgdtEditDelete"
+            android:text="@string/delete"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/accent"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

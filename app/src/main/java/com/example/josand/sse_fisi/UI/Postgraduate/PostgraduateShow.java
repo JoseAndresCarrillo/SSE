@@ -1,9 +1,12 @@
 package com.example.josand.sse_fisi.UI.Postgraduate;
 
+import android.content.Intent;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
 
 import com.example.josand.sse_fisi.Model.PostgraduateShowModel;
 import com.example.josand.sse_fisi.R;
@@ -24,6 +27,7 @@ public class PostgraduateShow extends AppCompatActivity {
         setContentView(R.layout.activity_postgraduate_show);
 
         List pgdtList =new ArrayList();
+        FloatingActionButton fab = findViewById(R.id.fabPgdt);
 
         pgdtList.add(new PostgraduateShowModel(getText(R.string.univName).toString(),
                 "Maestría en Ingeniería de Software","2021-2022"));
@@ -34,7 +38,16 @@ public class PostgraduateShow extends AppCompatActivity {
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
 
-        adapter =new UndergraduateShowAdapter(pgdtList);
+        adapter =new PostgraduateShowAdapter(pgdtList);
         recyclerView.setAdapter(adapter);
+
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),PostgraduateEdit.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 }

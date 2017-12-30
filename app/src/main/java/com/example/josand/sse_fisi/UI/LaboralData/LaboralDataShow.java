@@ -35,7 +35,7 @@ public class LaboralDataShow extends AppCompatActivity {
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
 
-        adapter =new UndergraduateShowAdapter(labList);
+        adapter =new LaboralDataShowAdapter(labList);
         recyclerView.setAdapter(adapter);
     }
 }

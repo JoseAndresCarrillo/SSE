@@ -60,13 +60,22 @@
     <string name="ugdtUnivName">Institución</string>
     <string name="ugdtSchool">Escuela Profesional</string>
     <string name="ugdtCode">Código de alumno</string>
-    <string name="ugdtStartYear">Año de Ingreso</string>
-    <string name="ugdtEndDate">Año de Egreso</string>
+    <string name="ugdtStartYear">Fecha de Ingreso</string>
+    <string name="ugdtEndDate">Fecha de Egreso</string>
     <string name="ugdtGradeDate">Fecha de expedición de grado</string>
     <string name="ugdtTitleDate">Fecha de expedición de titulo</string>
     <string name="ugdtMerit">Mérito</string>
     <string name="ugdtMode">Modalidad</string>
     <string name="ugdtTuition">Colegio Profesional</string>
     <string name="ugdtTuitionNumber">Numero de Colegiatura</string>
+
+    <!--Postgraduate-->
+    <string name="pgdtInstType">Tipo de Institución</string>
+    <string name="pgdtAcadProg">Programa Académico</string>
+    <string name="pgdtProgType">Tipo de Programa</string>
+    <string name="pgdtCertDate">Fecha de Certificación</string>
+    <string name="pgdtLectivesHour">Horas Lectivas</string>
+    
+
 
 </resources>

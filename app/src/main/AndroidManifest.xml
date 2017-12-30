@@ -64,12 +64,20 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".UI.PersonalData.PersonalDataShow" />
         </activity>
-        <activity android:name=".UI.Undergraduate.UndergraduteEdit"
+        <activity
+            android:name=".UI.Undergraduate.UndergraduteEdit"
             android:label="@string/undergraduateData"
             android:parentActivityName=".UI.Undergraduate.UndergraduateShow">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".UI.Undergraduate.UndergraduateShow" />
+        </activity>
+        <activity android:name=".UI.Postgraduate.PostgraduateEdit"
+            android:label="@string/postgraduateData"
+            android:parentActivityName=".UI.Postgraduate.PostgraduateShow">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UI.Postgraduate.PostgraduateShow" />
         </activity>
     </application>
 
