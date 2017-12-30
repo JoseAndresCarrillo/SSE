@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.josand.sse_fisi.UI.Postgraduate.PostgraduateEdit">
+    tools:context="com.example.josand.sse_fisi.UI.LaboralData.LaboralDataEdit">
 
     <ScrollView
         android:layout_margin="10dp"
         android:scrollbars="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@id/pgdtFooter">
+        android:layout_above="@id/labFooter">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -19,59 +19,108 @@
             android:orientation="vertical">
 
             <EditText
-                android:id="@+id/pgdtEditUnivName"
+                android:id="@+id/labEditInstName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/ugdtUnivName" />
 
             <EditText
-                android:id="@+id/pgdtInstType"
+                android:id="@+id/labInstType"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/pgdtInstType" />
 
             <EditText
-                android:id="@+id/pgdtEditAcadProg"
+                android:id="@+id/labEditEcoActType"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/pgdtAcadProg" />
+                android:hint="@string/economicActivity" />
 
             <EditText
-                android:id="@+id/pgdtProgType"
+                android:id="@+id/labArea"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/pgdtProgType" />
+                android:hint="@string/area" />
 
             <EditText
-                android:id="@+id/pgdtEditStartDate"
+                android:id="@+id/labJob"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/ugdtStartYear" />
+                android:hint="@string/jobTitle" />
 
             <EditText
-                android:id="@+id/pgdtEditEndDate"
+                android:id="@+id/labEditStartDate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/ugdtEndDate" />
+                android:hint="@string/startDate" />
 
             <EditText
-                android:id="@+id/pgdtEditCertDate"
+                android:id="@+id/ugdtEditEndDate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/pgdtCertDate" />
+                android:hint="@string/endDate" />
 
             <EditText
-                android:id="@+id/pgdtLectiveHours"
+                android:id="@+id/labEditServiceTime"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/pgdtLectivesHour" />
+                android:hint="@string/serviceTime" />
+
+            <EditText
+                android:id="@+id/labSalary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Salary" />
+
+            <EditText
+                android:id="@+id/labTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Time" />
+
+            <EditText
+                android:id="@+id/labContract"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Contract" />
+
+            <EditText
+                android:id="@+id/labProfRelation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/profRelation" />
+
+            <EditText
+                android:id="@+id/labFunctions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/function" />
+
+            <EditText
+                android:id="@+id/labMedia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/media" />
+
+            <EditText
+                android:id="@+id/labSatisfaction"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Satisfaction" />
+
+            <EditText
+                android:id="@+id/labEndJob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/endJob" />
 
         </LinearLayout>
 
     </ScrollView>
 
     <LinearLayout
-        android:id="@+id/pgdtFooter"
+        android:id="@+id/labFooter"
         android:layout_alignParentBottom="true"
         android:orientation="horizontal"
         android:layout_width="match_parent"

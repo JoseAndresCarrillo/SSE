@@ -72,12 +72,20 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".UI.Undergraduate.UndergraduateShow" />
         </activity>
-        <activity android:name=".UI.Postgraduate.PostgraduateEdit"
+        <activity
+            android:name=".UI.Postgraduate.PostgraduateEdit"
             android:label="@string/postgraduateData"
             android:parentActivityName=".UI.Postgraduate.PostgraduateShow">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".UI.Postgraduate.PostgraduateShow" />
+        </activity>
+        <activity android:name=".UI.LaboralData.LaboralDataEdit"
+            android:label="@string/laboralData"
+            android:parentActivityName=".UI.LaboralData.LaboralDataShow">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UI.LaboralData.LaboralDataShow" />
         </activity>
     </application>
 

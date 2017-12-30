@@ -76,6 +76,21 @@
     <string name="pgdtCertDate">Fecha de Certificación</string>
     <string name="pgdtLectivesHour">Horas Lectivas</string>
     
+    <!--Laboral Data-->
+    <string name="economicActivity">Actividad Económica</string>
+    <string name="area">Área</string>
+    <string name="jobTitle">Cargo</string>
+    <string name="startDate">Fecha de Inicio</string>
+    <string name="endDate">Fecha de Fin</string>
+    <string name="serviceTime">Tiempo de Servicio</string>
+    <string name="Salary">Contraprestación Mensual</string>
+    <string name="Time">Dedicación</string>
+    <string name="Contract">Tipo de Contrato</string>
+    <string name="profRelation">Relación a su formación</string>
+    <string name="function">Funciones Principales</string>
+    <string name="media">Medio por el cual consiguio el empleo</string>
+    <string name="Satisfaction">Nivel de Satisfacción</string>
+    <string name="endJob">Motivo de Cese</string>
 
 
 </resources>
