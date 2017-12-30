@@ -51,6 +51,9 @@
     <string name="numberChildrens">Número de Hijos</string>
     <string name="address">Dirección</string>
     <string name="geoLocation">Lugar de Residencia</string>
+    <string name="department">Departamento</string>
+    <string name="province">Provincia</string>
+    <string name="district">Distrito</string>
     <string name="phone">Teléfono Fijo</string>
     <string name="cellphone">Teléfono Móvil</string>
     <string name="personalEmail">Correo electrónico personal</string>
